@@ -27,13 +27,40 @@ This PHP-based project automates secure email OTP verification and simulates Git
 
 ## 📁 Project Structure
 
-├── index.php # UI for email registration & status
-├── functions.php # Core functions for sending emails and OTP generation
-├── cron.php # Periodic job: sends updates via email
-├── unsubscribe.php # Handles unsubscribe requests
-├── registered_emails.txt # List of registered user emails
-├── mail_log.txt # Log file for all sent emails & status
-├── setup_cron.sh # Shell script to install CRON job (every 5 minutes)
+path: index.php
+    type: php
+    role: entrypoint
+    description: Main user interface for email input and status.
+
+  - path: functions.php
+    type: php
+    role: utility
+    description: Functions for OTP generation and sending emails.
+
+  - path: cron.php
+    type: php
+    role: automation
+    description: CRON-executed script to send timeline updates via email.
+
+  - path: unsubscribe.php
+    type: php
+    role: api
+    description: Handles unsubscribe requests from users.
+
+  - path: registered_emails.txt
+    type: text
+    role: data
+    description: Stores list of active registered emails.
+
+  - path: mail_log.txt
+    type: text
+    role: log
+    description: Logs all email sending activities with status.
+
+  - path: setup_cron.sh
+    type: bash
+    role: setup
+    description: Schedules cron.php to run every 5 minutes via CRON.
 
 
 ---
