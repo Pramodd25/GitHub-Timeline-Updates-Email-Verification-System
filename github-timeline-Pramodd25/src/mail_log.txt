@@ -1,0 +1,31 @@
+[SUCCESS] Sent to: pramoddk2503@gmail.com with code 971157
+[SUCCESS] Sent to: resultcheck@123 with code 384493
+[SUCCESS] Sent to: resultcheck1@gmail.com with code 391226
+[SUCCESS] Sent to: resultcheck2@gmail.com with code 233260
+[SUCCESS] Sent to: resultcheck3@gmail.com with code 213451
+[FAIL] Sent update to 
+[SUCCESS] Sent update to resultcheck1@gmail.com
+[SUCCESS] Sent update to resultcheck2@gmail.com
+[SUCCESS] Sent update to resultcheck3@gmail.com
+[FAIL] Sent update to 
+[SUCCESS] Sent update to resultcheck1@gmail.com
+[SUCCESS] Sent update to resultcheck2@gmail.com
+[SUCCESS] Sent update to resultcheck3@gmail.com
+[SUCCESS] Sent update to 
+[SUCCESS] Sent update to resultcheck1@gmail.com
+[SUCCESS] Sent update to resultcheck2@gmail.com
+[SUCCESS] Sent update to resultcheck3@gmail.com
+[FAIL] Sent update to 
+[SUCCESS] Sent update to resultcheck1@gmail.com
+[SUCCESS] Sent update to resultcheck2@gmail.com
+[SUCCESS] Sent update to resultcheck3@gmail.com
+❌ Skipped invalid or empty recipient: 
+Mail to: resultcheck1@gmail.com => ✅ Sent
+Mail to: resultcheck2@gmail.com => ✅ Sent
+Mail to: resultcheck3@gmail.com => ✅ Sent
+[SUCCESS] Sent to: resultcheck234@gmail.com with code 812089
+❌ Skipped invalid or empty recipient: 
+Mail to: resultcheck1@gmail.com => ✅ Sent
+Mail to: resultcheck2@gmail.com => ✅ Sent
+Mail to: resultcheck3@gmail.com => ✅ Sent
+Mail to: resultcheck234@gmail.com => ✅ Sent
